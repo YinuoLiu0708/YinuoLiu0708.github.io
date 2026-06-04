@@ -1,4 +1,63 @@
 /* ==========================================================================
+   PUBLICATION SECTION STYLES
+   ========================================================================== */
+
+.pub-section {
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 32px;
+
+  .archive__subtitle {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .publication {
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+
+    &:last-child { margin-bottom: 0; }
+
+    h3 { margin-top: 0; margin-bottom: 6px; font-size: 1em; }
+    h3 a { color: inherit; text-decoration: none; }
+    h3 a:hover { text-decoration: underline; }
+    p { margin: 2px 0; font-size: 0.88em; opacity: 0.9; }
+  }
+}
+
+/* Navy Blue — Publications */
+.pub-section--manuscripts {
+  background-color: #1a2a4a;
+  border: 2px solid #2e4a7a;
+  color: #dce8ff;
+
+  .archive__subtitle { color: #a8c4ff; }
+}
+
+/* Deep Green — Preprints */
+.pub-section--preprints {
+  background-color: #0f2d1f;
+  border: 2px solid #1e5c36;
+  color: #d0f0dc;
+
+  .archive__subtitle { color: #7dd8a0; }
+}
+
+/* Dark Purple — Book Chapters */
+.pub-section--book-chapters {
+  background-color: #22103a;
+  border: 2px solid #4a2070;
+  color: #ead8ff;
+
+  .archive__subtitle { color: #c084fc; }
+}
+
+/* ==========================================================================
    CUSTOM ABOUT PAGE STYLES
    Adapts to Light/Dark themes using global CSS variables
    ========================================================================== */

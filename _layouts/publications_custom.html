@@ -25,45 +25,45 @@ layout: default
     {% assign book_chapters = site.publications | where: "category", "book-chapters" | sort: "date" | reverse %}
 
     {% if manuscripts.size > 0 %}
-      <h2 class="archive__subtitle">Publications</h2>
-      {% for post in manuscripts %}
-        <div class="publication">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p><strong>Venue:</strong> {{ post.venue }}</p>
-          <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
-          {% if post.excerpt %}
-            <p>{{ post.excerpt }}</p>
-          {% endif %}
-        </div>
-      {% endfor %}
+      <div class="pub-section pub-section--manuscripts">
+        <h2 class="archive__subtitle">Publications</h2>
+        {% for post in manuscripts %}
+          <div class="publication">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p><strong>Venue:</strong> {{ post.venue }}</p>
+            <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
+            {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
     {% endif %}
 
     {% if preprints.size > 0 %}
-      <h2 class="archive__subtitle">Preprints</h2>
-      {% for post in preprints %}
-        <div class="publication">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p><strong>Venue:</strong> {{ post.venue }}</p>
-          <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
-          {% if post.excerpt %}
-            <p>{{ post.excerpt }}</p>
-          {% endif %}
-        </div>
-      {% endfor %}
+      <div class="pub-section pub-section--preprints">
+        <h2 class="archive__subtitle">Preprints</h2>
+        {% for post in preprints %}
+          <div class="publication">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p><strong>Venue:</strong> {{ post.venue }}</p>
+            <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
+            {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
     {% endif %}
 
     {% if book_chapters.size > 0 %}
-      <h2 class="archive__subtitle">Book Chapters</h2>
-      {% for post in book_chapters %}
-        <div class="publication">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p><strong>Venue:</strong> {{ post.venue }}</p>
-          <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
-          {% if post.excerpt %}
-            <p>{{ post.excerpt }}</p>
-          {% endif %}
-        </div>
-      {% endfor %}
+      <div class="pub-section pub-section--book-chapters">
+        <h2 class="archive__subtitle">Book Chapters</h2>
+        {% for post in book_chapters %}
+          <div class="publication">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p><strong>Venue:</strong> {{ post.venue }}</p>
+            <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
+            {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
     {% endif %}
   </div>
 </div>
