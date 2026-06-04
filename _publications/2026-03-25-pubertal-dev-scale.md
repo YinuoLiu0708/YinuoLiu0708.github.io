@@ -1,7 +1,7 @@
 ---
 title: "National norms and psychometrics for the Pubertal Development Scale"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/2026-03-25-pubertal-dev-scale
 excerpt: ''
 date: 2026-03-25

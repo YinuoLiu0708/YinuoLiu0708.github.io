@@ -1,7 +1,7 @@
 ---
 title: "Tools for helping identify behavior disorders: Comparing Bayesian nomogram and machine learning models"
 collection: publications
-category: manuscripts
+category: preprints
 permalink: /publication/2026-02-01-tools-behavior-disorders
 excerpt: ''
 date: 2026-02-01
