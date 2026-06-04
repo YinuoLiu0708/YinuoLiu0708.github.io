@@ -93,7 +93,7 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
   {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: 'date' | reverse %}
   {% assign preprints   = site.publications | where: "category", "preprints"   | sort: 'date' | reverse %}
   {% assign book_chaps  = site.publications | where: "category", "book-chapters" | sort: 'date' | reverse %}
-  {% assign all_pubs = manuscripts | concat: preprints | concat: book_chaps %}
+  {% assign all_pubs = manuscripts | concat: book_chaps | concat: preprints %}
 
   {% for post in all_pubs %}
     
@@ -138,7 +138,7 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
         </div>
         
         <div class="pub-venue">
-          {{ post.venue }}{% if post.category == "preprints" %} <span class="under-review-tag">Under Review</span>{% endif %}
+          {% if post.category == "preprints" %}<span class="under-review-tag">Under Review</span>{% else %}{{ post.venue }}{% endif %}
         </div>
       </div>
       <div class="pub-year-bg">{{ post.date | date: "%Y" }}</div>
