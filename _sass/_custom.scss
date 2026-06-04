@@ -58,6 +58,74 @@
 }
 
 /* ==========================================================================
+   PRESENTATION SECTION STYLES
+   ========================================================================== */
+
+.pres-section {
+  border-radius: 8px;
+  padding: 24px 28px;
+  margin-bottom: 32px;
+
+  .archive__subtitle {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 1.3em;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+
+  .presentation {
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin-bottom: 12px;
+
+    &:last-child { margin-bottom: 0; }
+
+    h3 { margin-top: 0; margin-bottom: 6px; font-size: 1em; font-weight: 600; }
+  }
+
+  .pres-authors {
+    margin: 2px 0;
+    font-size: 0.85em;
+    opacity: 0.85;
+  }
+
+  .pres-meta {
+    margin: 2px 0;
+    font-size: 0.82em;
+    opacity: 0.75;
+  }
+}
+
+/* Dark Teal — Invited Talks */
+.pres-section--invited {
+  background-color: #062a2a;
+  border: 2px solid #0e5c5c;
+  color: #ccf0f0;
+
+  .archive__subtitle { color: #4dd4d4; }
+}
+
+/* Dark Amber — National Presentations */
+.pres-section--national {
+  background-color: #2b1800;
+  border: 2px solid #6b3d00;
+  color: #ffe8c2;
+
+  .archive__subtitle { color: #ffb347; }
+}
+
+/* Dark Slate Blue — Local Presentations */
+.pres-section--local {
+  background-color: #0e1a2e;
+  border: 2px solid #1e3a6e;
+  color: #d0deff;
+
+  .archive__subtitle { color: #7eb3ff; }
+}
+
+/* ==========================================================================
    CUSTOM ABOUT PAGE STYLES
    Adapts to Light/Dark themes using global CSS variables
    ========================================================================== */

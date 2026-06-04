@@ -1,0 +1,67 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    {% assign invited = site.talks | where: "category", "invited-talks" | sort: "date" | reverse %}
+    {% assign national = site.talks | where: "category", "national" | sort: "date" | reverse %}
+    {% assign local = site.talks | where: "category", "local" | sort: "date" | reverse %}
+
+    {% if invited.size > 0 %}
+      <div class="pres-section pres-section--invited">
+        <h2 class="archive__subtitle">Invited Talks</h2>
+        {% for post in invited %}
+          <div class="presentation">
+            <h3>{{ post.title }}</h3>
+            <p class="pres-authors">{{ post.authors }}</p>
+            <p class="pres-meta"><em>{{ post.type }}</em> &mdash; {{ post.venue }}, {{ post.location }}. {{ post.date | date: "%B %Y" }}.</p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if national.size > 0 %}
+      <div class="pres-section pres-section--national">
+        <h2 class="archive__subtitle">National Presentations</h2>
+        {% for post in national %}
+          <div class="presentation">
+            <h3>{{ post.title }}</h3>
+            <p class="pres-authors">{{ post.authors }}</p>
+            <p class="pres-meta"><em>{{ post.type }}</em> &mdash; {{ post.venue }}, {{ post.location }}. {{ post.date | date: "%B %Y" }}.</p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if local.size > 0 %}
+      <div class="pres-section pres-section--local">
+        <h2 class="archive__subtitle">Local Presentations</h2>
+        {% for post in local %}
+          <div class="presentation">
+            <h3>{{ post.title }}</h3>
+            <p class="pres-authors">{{ post.authors }}</p>
+            <p class="pres-meta"><em>{{ post.type }}</em> &mdash; {{ post.venue }}, {{ post.location }}. {{ post.date | date: "%B %Y" }}.</p>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+  </div>
+</div>
