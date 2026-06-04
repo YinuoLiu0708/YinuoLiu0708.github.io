@@ -263,9 +263,15 @@
   }
 
   /* Default Badges */
-  .badge-default { 
-    border-color: #64748b; color: #64748b; 
-    html[data-theme="dark"] & { border-color: #cbd5e1; color: #cbd5e1; } 
+  .badge-default {
+    border-color: #64748b; color: #64748b;
+    html[data-theme="dark"] & { border-color: #cbd5e1; color: #cbd5e1; }
+  }
+
+  /* Under Review Badges */
+  .badge-under-review {
+    border-color: #d97706; color: #d97706;
+    html[data-theme="dark"] & { border-color: #fbbf24; color: #fbbf24; }
   }
 
   /* --- Publication Text --- */

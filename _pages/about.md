@@ -97,28 +97,21 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
 
   {% for post in all_pubs %}
     
-    {% assign venue_down = post.venue_nickname | downcase %}
-    {% if venue_down contains 'frontiers' %}
-      {% assign badge_class = 'badge-colm' %}
-      {% assign badge_text = 'Frontiers' %}
-    {% elsif venue_down contains 'jaacap' %}
-      {% assign badge_class = 'badge-emnlp' %}
-      {% assign badge_text = 'JAACAP' %}
-    {% elsif venue_down contains 'jad' %}
-      {% assign badge_class = 'badge-neurips' %}
-      {% assign badge_text = 'J. Affective Disorders' %}
-    {% elsif venue_down contains 'jpba' %}
-      {% assign badge_class = 'badge-eacl' %}
-      {% assign badge_text = 'J. Psychopathology' %}
-    {% elsif venue_down contains 'preprint' %}
-      {% assign badge_class = 'badge-arxiv' %}
-      {% assign badge_text = 'Preprint' %}
-    {% elsif venue_down contains 'book' %}
-      {% assign badge_class = 'badge-thesis' %}
-      {% assign badge_text = 'Book Chapter' %}
+    {% if post.category == "preprints" %}
+      {% assign badge_class = 'badge-under-review' %}
+      {% assign badge_text = 'Under Review' %}
     {% else %}
-      {% assign badge_class = 'badge-default' %}
-      {% assign badge_text = 'Paper' %} 
+      {% assign venue_down = post.venue_nickname | downcase %}
+      {% if venue_down contains 'frontiers' %}
+        {% assign badge_class = 'badge-colm' %}
+        {% assign badge_text = 'Frontiers' %}
+      {% elsif venue_down contains 'book' %}
+        {% assign badge_class = 'badge-thesis' %}
+        {% assign badge_text = 'Book Chapter' %}
+      {% else %}
+        {% assign badge_class = 'badge-default' %}
+        {% assign badge_text = 'Paper' %}
+      {% endif %}
     {% endif %}
 
     <div class="pub-item">
@@ -138,7 +131,7 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
         </div>
         
         <div class="pub-venue">
-          {% if post.category == "preprints" %}<span class="under-review-tag">Under Review</span>{% else %}{{ post.venue }}{% endif %}
+          {% if post.category == "preprints" %}{{ post.venue | split: " (" | first }}{% else %}{{ post.venue }}{% endif %}
         </div>
       </div>
       <div class="pub-year-bg">{{ post.date | date: "%Y" }}</div>
