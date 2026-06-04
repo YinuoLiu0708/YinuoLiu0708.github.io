@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Tianyi Niu"
+title: "Yinuo Liu"
 author_profile: true
 redirect_from: 
   - /about/
@@ -12,20 +12,18 @@ redirect_from:
 </style>
 
 
-Hello! I am pursuing a Master of Science in Computer Science at [The University of North Carolina at Chapel Hill](https://www.unc.edu). I am currently a Research Assistant at [MURGe-Lab](https://murgelab.cs.unc.edu), advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/) and [Prof. Elias Stengel-Eskin](https://esteng.github.io/).
+Hello! I am a Clinical Research Coordinator at [Nationwide Children's Hospital](https://www.nationwidechildrens.org), working in the [Institute for Mental & Behavioral Health Research](https://www.nationwidechildrens.org/research/areas-of-research/institute-for-mental-and-behavioral-health-research) under [Dr. Eric A. Youngstrom](https://psychiatry.unc.edu/profile/youngstrom/).
 
-My current research focuses on two key directions: 
-1. **Abstractions and Cognition of MLLMs.** How do abstractions formed by (M)LLMs differ from humans,
-and can insights from human cognition inform model development, and vice versa?
-1. **Interaction and communication in multi-agent systems.** How is knowledge transferred in multi-agent
-systems, and can principles of human communication also inform and optimize multi-agent interaction
-paradigms?
+My research sits at the intersection of **clinical psychology**, **artificial intelligence**, and **psychometrics**. I focus on three key areas:
+1. **AI in Clinical Research.** Developing and evaluating LLM-based workflows for abstract evaluation, CV screening, and AI-assisted meta-analysis pipelines in behavioral health research.
+2. **Machine Learning in Healthcare.** Applying and comparing machine learning and evidence-based decision methods (e.g., Bayesian nomograms) to improve pediatric diagnosis and measurement-based care.
+3. **Psychometrics and Scale Development.** Creating national norms and psychometric benchmarks for clinical measures related to puberty, depression, mania, quality of life, and related domains.
 
-I previously graduated from UNC Chapel Hill with highest distinction, obtaining a BS in Computer Science (highest honors) with a second major in Linguistics. My undergraduate thesis (advised by [Prof. Shashank Srivastava](https://www.ssriva.com)) explored whether LLMs benefit from curriculum training on synthetic pre-training data.
+I graduated from the University of North Carolina at Chapel Hill with a BS in Psychology and a BA in Computer Science (both with a 4.0 major GPA, overall GPA 3.97).
 
-Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
+Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
 
-## 📢 News
+## News
 
 <div class="about-content">
   <div class="news-box"> 
@@ -33,96 +31,87 @@ Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
     <div class="news-item">
       <div class="news-date">Apr 2026</div>
       <div class="news-content">
-        🎉 1 paper accepted into <strong>ACL 2026 main</strong>: <i>Routing with Generated Data: Annotation-Free LLM Skill Estimation and Expert Selection</i>.
+        Published paper in <strong>Frontiers in Research Metrics and Analytics</strong>: <i>Evaluating large language models for abstract evaluation tasks: An empirical study</i>.
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Apr 2026</div>
+      <div class="news-content">
+        Invited CE seminar at Nationwide Children's Hospital: <i>AI and Clinical Science in Mental and Behavioral Health: From Evidence Pipeline to Patient Outcomes</i>.
       </div>
     </div>
 
     <div class="news-item">
       <div class="news-date">Jan 2026</div>
       <div class="news-content">
-        New preprint: <i>Routing with Generated Data: Annotation-Free LLM Skill Estimation and Expert Selection</i>.
+        Poster presentation at <strong>American College of Neuropsychopharmacology</strong>, Nassau, Bahamas: <i>Advancing detection and measurement-based care of mood problems in youth</i>.
       </div>
     </div>
 
     <div class="news-item">
-      <div class="news-date">Jan 2026</div>
+      <div class="news-date">Nov 2025</div>
       <div class="news-content">
-        🎉 1 paper accepted into <strong>EACl 2026 main</strong>: <i>RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation</i>.
+        Three poster presentations at <strong>ABCT 2025 Annual Convention</strong>, New Orleans, LA — including Diagnostic Accuracy of Child Mania Rating Scale and quality of life in youth.
       </div>
     </div>
 
     <div class="news-item">
-      <div class="news-date">Dec 2025</div>
+      <div class="news-date">Nov 2025</div>
       <div class="news-content">
-        New preprint: <i>Socratic Students: Teaching Language Models to Learn by Asking Questions</i>.
+        Selected speaker at <strong>Abigail Wexner Research Institute Annual Research Retreat</strong>: <i>Building ChatGPT-Based Abstract Scoring: Pilot and Application</i>.
       </div>
     </div>
 
     <div class="news-item">
-      <div class="news-date">Dec 2025</div>
+      <div class="news-date">Oct 2025</div>
       <div class="news-content">
-        New preprint: <i>Adversarially Probing Cross-Family Sound Symbolism in 27 Languages</i>.
+        Two poster presentations at <strong>AACAP 2025 Annual Convention</strong>, Chicago, IL — on machine learning for ODD prediction and psychosis assessment coverage.
       </div>
     </div>
 
     <div class="news-item">
-      <div class="news-date">Aug 2025</div>
+      <div class="news-date">Jun 2025</div>
       <div class="news-content">
-        New preprint: <i>RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation</i>.
+        Invited talk at Nationwide Children's Hospital: <i>ChatGPT 101: From Theory to Practice</i>.
       </div>
     </div>
 
     <div class="news-item">
-      <div class="news-date">Aug 2025</div>
+      <div class="news-date">Feb 2025</div>
       <div class="news-content">
-        🎉 1 paper accepted into <strong>EMNLP 2025 main</strong>: <i>Chameleon LLMs: User Personas Influence ChatBot Personality Shifts</i>.
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">June 2025</div>
-      <div class="news-content">
-        Joined MURGe-Lab as a Research Assistant advised by Prof. Mohit Bansal.
+        Joined Nationwide Children's Hospital as a Clinical Research Coordinator at the Institute for Mental & Behavioral Health Research.
       </div>
     </div>
 
   </div> </div>
 
 
-## 📝 Publications
+## Publications
 
 <div class="about-content">
   {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
   {% for post in sorted_pubs %}
     
     {% assign venue_down = post.venue_nickname | downcase %}
-    {% if venue_down contains 'neurips' %}
-      {% assign badge_class = 'badge-neurips' %}
-      {% assign badge_text = 'NeurIPS' %}
-    {% elsif venue_down contains 'emnlp' %}
-      {% assign badge_class = 'badge-emnlp' %}
-      {% assign badge_text = 'EMNLP' %}
-    {% elsif venue_down contains 'colm' %}
+    {% if venue_down contains 'frontiers' %}
       {% assign badge_class = 'badge-colm' %}
-      {% assign badge_text = 'COLM' %}
-    {% elsif venue_down contains 'icimth' %}
-      {% assign badge_class = 'badge-icimth' %}
-      {% assign badge_text = 'ICIMTH' %}
-    {% elsif venue_down contains 'arxiv' %}
+      {% assign badge_text = 'Frontiers' %}
+    {% elsif venue_down contains 'jaacap' %}
+      {% assign badge_class = 'badge-emnlp' %}
+      {% assign badge_text = 'JAACAP' %}
+    {% elsif venue_down contains 'jad' %}
+      {% assign badge_class = 'badge-neurips' %}
+      {% assign badge_text = 'J. Affective Disorders' %}
+    {% elsif venue_down contains 'jpba' %}
+      {% assign badge_class = 'badge-eacl' %}
+      {% assign badge_text = 'J. Psychopathology' %}
+    {% elsif venue_down contains 'preprint' %}
       {% assign badge_class = 'badge-arxiv' %}
       {% assign badge_text = 'Preprint' %}
-    {% elsif venue_down contains 'eacl' %}
-      {% assign badge_class = 'badge-eacl' %}
-      {% assign badge_text = 'EACL' %}
-    {% elsif venue_down contains 'acl' %}
-      {% assign badge_class = 'badge-acl' %}
-      {% assign badge_text = 'ACL' %}
-    {% elsif venue_down contains 'sigmorphon' %}
-      {% assign badge_class = 'badge-sigmorphon' %}
-      {% assign badge_text = 'sigmorphon' %}
-    {% elsif venue_down contains 'thesis' %}
+    {% elsif venue_down contains 'book' %}
       {% assign badge_class = 'badge-thesis' %}
-      {% assign badge_text = 'Thesis' %}
+      {% assign badge_text = 'Book Chapter' %}
     {% else %}
       {% assign badge_class = 'badge-default' %}
       {% assign badge_text = 'Paper' %} 
@@ -134,9 +123,13 @@ Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
       </div>
 
       <div class="pub-content">
-        <a href="{{ post.paperurl | default: post.url }}" class="pub-title">
+        {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" class="pub-title">
         {{ post.title }}
         </a>
+        {% else %}
+        <span class="pub-title">{{ post.title }}</span>
+        {% endif %}
         
         <div class="pub-authors">
           {{ post.authors | default: "Authors List Placeholder" }}
