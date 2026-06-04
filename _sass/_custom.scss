@@ -296,4 +296,23 @@
     font-size: 0.7em;
     color: var(--global-text-color-light);
   }
+
+  .under-review-tag {
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 3px;
+    border: 1px solid #d97706;
+    color: #d97706;
+    vertical-align: middle;
+    margin-left: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+
+    html[data-theme="dark"] & {
+      border-color: #fbbf24;
+      color: #fbbf24;
+    }
+  }
 }

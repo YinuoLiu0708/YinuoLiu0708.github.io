@@ -90,8 +90,12 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
 ## Publications
 
 <div class="about-content">
-  {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
-  {% for post in sorted_pubs %}
+  {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: 'date' | reverse %}
+  {% assign preprints   = site.publications | where: "category", "preprints"   | sort: 'date' | reverse %}
+  {% assign book_chaps  = site.publications | where: "category", "book-chapters" | sort: 'date' | reverse %}
+  {% assign all_pubs = manuscripts | concat: preprints | concat: book_chaps %}
+
+  {% for post in all_pubs %}
     
     {% assign venue_down = post.venue_nickname | downcase %}
     {% if venue_down contains 'frontiers' %}
@@ -124,9 +128,7 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
 
       <div class="pub-content">
         {% if post.paperurl %}
-        <a href="{{ post.paperurl }}" class="pub-title">
-        {{ post.title }}
-        </a>
+        <a href="{{ post.paperurl }}" class="pub-title">{{ post.title }}</a>
         {% else %}
         <span class="pub-title">{{ post.title }}</span>
         {% endif %}
@@ -136,7 +138,7 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
         </div>
         
         <div class="pub-venue">
-          {{ post.venue }}
+          {{ post.venue }}{% if post.category == "preprints" %} <span class="under-review-tag">Under Review</span>{% endif %}
         </div>
       </div>
       <div class="pub-year-bg">{{ post.date | date: "%Y" }}</div>
