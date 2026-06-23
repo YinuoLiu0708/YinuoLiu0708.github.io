@@ -12,7 +12,7 @@ redirect_from:
 </style>
 
 
-Hello! I am a Clinical Research Coordinator at [Nationwide Children's Hospital](https://www.nationwidechildrens.org), working in the [Institute for Mental & Behavioral Health Research](https://www.nationwidechildrens.org/research/areas-of-research/institute-for-mental-and-behavioral-health-research) under [Dr. Eric A. Youngstrom](https://psychiatry.unc.edu/profile/youngstrom/).
+Hello! I am a Data Analyst Coordinator at [Nationwide Children's Hospital](https://www.nationwidechildrens.org), working in the [Institute for Mental & Behavioral Health Research](https://www.nationwidechildrens.org/research/areas-of-research/institute-for-mental-and-behavioral-health-research) under [Dr. Eric A. Youngstrom](https://psychiatry.unc.edu/profile/youngstrom/).
 
 My research sits at the intersection of **clinical psychology**, **artificial intelligence**, and **psychometrics**. I focus on three key areas:
 1. **AI in Clinical Research.** Developing and evaluating LLM-based workflows for abstract evaluation, CV screening, and AI-assisted meta-analysis pipelines in behavioral health research.
