@@ -21,7 +21,9 @@ layout: default
     {% endunless %}
     
     {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
-    {% assign preprints = site.publications | where: "category", "preprints" | sort: "date" | reverse %}
+    {% assign preprints_first = site.publications | where: "category", "preprints" | where: "first_author", true  | sort: "date" | reverse %}
+    {% assign preprints_co    = site.publications | where: "category", "preprints" | where_exp: "item", "item.first_author != true" | sort: "date" | reverse %}
+    {% assign preprints = preprints_first | concat: preprints_co %}
     {% assign book_chapters = site.publications | where: "category", "book-chapters" | sort: "date" | reverse %}
 
     {% if manuscripts.size > 0 %}

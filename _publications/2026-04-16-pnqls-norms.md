@@ -2,6 +2,7 @@
 title: "Normative benchmarks for the Parent-report Nationwide Quality of Life Scale (P-NQLS)"
 collection: publications
 category: preprints
+first_author: true
 permalink: /publication/2026-04-16-pnqls-norms
 excerpt: ''
 date: 2026-04-16

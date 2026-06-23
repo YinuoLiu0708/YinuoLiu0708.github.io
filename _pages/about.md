@@ -97,9 +97,11 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
 ## Publications
 
 <div class="about-content">
-  {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: 'date' | reverse %}
-  {% assign preprints   = site.publications | where: "category", "preprints"   | sort: 'date' | reverse %}
-  {% assign book_chaps  = site.publications | where: "category", "book-chapters" | sort: 'date' | reverse %}
+  {% assign manuscripts      = site.publications | where: "category", "manuscripts"   | sort: 'date' | reverse %}
+  {% assign book_chaps       = site.publications | where: "category", "book-chapters" | sort: 'date' | reverse %}
+  {% assign preprints_first  = site.publications | where: "category", "preprints" | where: "first_author", true  | sort: 'date' | reverse %}
+  {% assign preprints_co     = site.publications | where: "category", "preprints" | where_exp: "item", "item.first_author != true" | sort: 'date' | reverse %}
+  {% assign preprints        = preprints_first | concat: preprints_co %}
   {% assign all_pubs = manuscripts | concat: book_chaps | concat: preprints %}
 
   {% for post in all_pubs %}
