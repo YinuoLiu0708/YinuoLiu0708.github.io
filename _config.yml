@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Yinuo Liu"
 title_separator          : "-"
 name                     : &name "Yinuo Liu"
-description              : &description "Clinical Research Coordinator at Nationwide Children's Hospital"
+description              : &description "Data Analyst Coordinator at Nationwide Children's Hospital"
 url                      : https://yinuoliu0708.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YinuoLiu0708/yinuo_liu_personal_web"
@@ -25,7 +25,7 @@ author:
   avatar           : "YL_headshot.png"
   name             : "Yinuo Liu"
   pronouns         : "she/her"
-  bio              : "Clinical Research Coordinator at Nationwide Children's Hospital"
+  bio              : "Data Analyst Coordinator at Nationwide Children's Hospital"
   location         : "Columbus, OH"
   # employer         : "Nationwide Children's Hospital"
   uri              : "https://yinuoliu0708.github.io" # URL
@@ -33,9 +33,9 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=28FdYcUAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/0009-0007-2606-575X"
   semantic         : # URL
   pubmed           : # e.g., "https://www.ncbi.nlm.nih.gov/pubmed/?term=yinuo+liu"
   researchgate     : # URL

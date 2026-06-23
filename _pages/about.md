@@ -29,6 +29,13 @@ Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
   <div class="news-box"> 
 
     <div class="news-item">
+      <div class="news-date">June 2026</div>
+      <div class="news-content">
+        Promoted to Data Analyst Coordinator position!
+      </div>
+    </div>
+
+    <div class="news-item">
       <div class="news-date">Apr 2026</div>
       <div class="news-content">
         Published paper in <strong>Frontiers in Research Metrics and Analytics</strong>: <i>Evaluating large language models for abstract evaluation tasks: An empirical study</i>.
