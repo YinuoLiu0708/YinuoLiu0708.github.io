@@ -12,7 +12,7 @@ redirect_from:
 </style>
 
 
-Hello! I am a Data Analyst Coordinator at [Nationwide Children's Hospital](https://www.nationwidechildrens.org), working in the [Institute for Mental & Behavioral Health Research](https://www.nationwidechildrens.org/research/areas-of-research/institute-for-mental-and-behavioral-health-research) under [Dr. Eric A. Youngstrom](https://psychiatry.unc.edu/profile/youngstrom/).
+Hello! I am a Data Analyst Coordinator at [Nationwide Children's Hospital](https://www.nationwidechildrens.org), working in the [Institute for Mental & Behavioral Health Research](https://www.nationwidechildrens.org/research/areas-of-research/institute-for-mental-and-behavioral-health-research) under [Dr. Eric A. Youngstrom](https://scholar.google.com/citations?user=xsHZ_3UAAAAJ&hl=en&oi=ao).
 
 My research sits at the intersection of **clinical psychology**, **artificial intelligence**, and **psychometrics**. I focus on three key areas:
 1. **AI in Clinical Research.** Developing and evaluating LLM-based workflows for abstract evaluation, CV screening, and AI-assisted meta-analysis pipelines in behavioral health research.
@@ -21,7 +21,7 @@ My research sits at the intersection of **clinical psychology**, **artificial in
 
 I graduated from the University of North Carolina at Chapel Hill with a BS in Psychology and a BA in Computer Science (both with a 4.0 major GPA, overall GPA 3.97).
 
-Feel free to reach me at: Yinuo.Liu [at] nationwidechildrens [dot] org
+Feel free to reach me at: Yinuo.Liu@nationwidechildrens.org
 
 ## News
 

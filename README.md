@@ -1,6 +1,6 @@
 # Yinuo Liu's Personal Website
 
-Personal academic website for Yinuo Liu, Clinical Research Coordinator at Nationwide Children's Hospital.  
+Personal academic website for Yinuo Liu, Data Analyst Coordinator at Nationwide Children's Hospital.  
 Live site: [yinuoliu0708.github.io](https://yinuoliu0708.github.io)
 
 Built on [Academic Pages](https://github.com/academicpages/academicpages.github.io).

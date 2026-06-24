@@ -17,7 +17,7 @@ Youngstrom E.A., Thompson A.J., <u>Liu Y.</u>, McClellan M.B., Alcaino C., Rodda
 
 **Status**: Under Review at *JAACAP OPEN*
 
-Preprint: [https://doi.org/10.64898/2026.05.06.26352558](https://doi.org/10.64898/2026.05.06.26352558)
+Preprint: [View Preprint](https://doi.org/10.64898/2026.05.06.26352558)
 
 **Abstract**
 

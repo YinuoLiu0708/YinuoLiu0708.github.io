@@ -17,7 +17,7 @@ Shi Z., Youngstrom E.A., <u>Liu Y.</u>, Youngstrom J.K., & Findling R.L.
 
 **Status**: Under Review at *Journal of Affective Disorders*
 
-Preprint: [https://doi.org/10.64898/2026.03.26.26349447](https://doi.org/10.64898/2026.03.26.26349447)
+Preprint: [View Preprint](https://doi.org/10.64898/2026.03.26.26349447)
 
 **Abstract**
 
