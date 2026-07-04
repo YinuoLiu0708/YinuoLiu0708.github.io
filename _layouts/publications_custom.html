@@ -20,11 +20,9 @@ layout: default
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
     
-    {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
-    {% assign preprints_first = site.publications | where: "category", "preprints" | where: "first_author", true  | sort: "date" | reverse %}
-    {% assign preprints_co    = site.publications | where: "category", "preprints" | where_exp: "item", "item.first_author != true" | sort: "date" | reverse %}
-    {% assign preprints = preprints_first | concat: preprints_co %}
-    {% assign book_chapters = site.publications | where: "category", "book-chapters" | sort: "date" | reverse %}
+    {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "order" %}
+    {% assign preprints = site.publications | where: "category", "preprints" | sort: "order" %}
+    {% assign book_chapters = site.publications | where: "category", "book-chapters" | sort: "order" %}
 
     {% if manuscripts.size > 0 %}
       <div class="pub-section pub-section--manuscripts">

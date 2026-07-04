@@ -14,95 +14,19 @@ redirect_from:
 
 Hello! I am a Data Analyst Coordinator at [Nationwide Children's Hospital](https://www.nationwidechildrens.org), working in the [Institute for Mental & Behavioral Health Research](https://www.nationwidechildrens.org/research/areas-of-research/institute-for-mental-and-behavioral-health-research) under [Dr. Eric A. Youngstrom](https://scholar.google.com/citations?user=xsHZ_3UAAAAJ&hl=en&oi=ao).
 
-My research sits at the intersection of **clinical psychology**, **artificial intelligence**, and **psychometrics**. I focus on three key areas:
-1. **AI in Clinical Research.** Developing and evaluating LLM-based workflows for abstract evaluation, CV screening, and AI-assisted meta-analysis pipelines in behavioral health research.
-2. **Machine Learning in Healthcare.** Applying and comparing machine learning and evidence-based decision methods (e.g., Bayesian nomograms) to improve pediatric diagnosis and measurement-based care.
-3. **Psychometrics and Scale Development.** Creating national norms and psychometric benchmarks for clinical measures related to puberty, depression, mania, quality of life, and related domains.
+My research sits at the intersection of **data science**, **artificial intelligence**, and **clinical psychology**. I focus on three key areas:
+1. **Machine Learning & Predictive Modeling.** Applying and managing machine learning, predictive analytics, and evidence-based decision tools to large-scale and electronic health record (EHR) data to improve diagnosis and measurement-based care.
+2. **Artificial Intelligence in Clinical & Research Workflows.** Developing and evaluating AI-based workflows, including large language models and vision language models, to automate and scale research and clinical processes, such as meta-analysis, information evaluation, and multimedia-based clinical assessment.
+3. **Clinical Mental Health and Assessment.** Combining clinical knowledge with strong quantitative skills, including regression-based norming, to build and validate assessment benchmarks across diverse data sources like clinical research samples, nationally representative datasets, and electronic health records.
 
 I graduated from the University of North Carolina at Chapel Hill with a BS in Psychology and a BA in Computer Science (both with a 4.0 major GPA, overall GPA 3.97).
 
 Feel free to reach me at: Yinuo.Liu@nationwidechildrens.org
 
-## News
-
-<div class="about-content">
-  <div class="news-box"> 
-
-    <div class="news-item">
-      <div class="news-date">June 2026</div>
-      <div class="news-content">
-        Promoted to Data Analyst Coordinator position!
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Apr 2026</div>
-      <div class="news-content">
-        Published paper in <strong>Frontiers in Research Metrics and Analytics</strong>: <i>Evaluating large language models for abstract evaluation tasks: An empirical study</i>.
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Apr 2026</div>
-      <div class="news-content">
-        Invited CE seminar at Nationwide Children's Hospital: <i>AI and Clinical Science in Mental and Behavioral Health: From Evidence Pipeline to Patient Outcomes</i>.
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Jan 2026</div>
-      <div class="news-content">
-        Poster presentation at <strong>American College of Neuropsychopharmacology</strong>, Nassau, Bahamas: <i>Advancing detection and measurement-based care of mood problems in youth</i>.
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Nov 2025</div>
-      <div class="news-content">
-        Three poster presentations at <strong>ABCT 2025 Annual Convention</strong>, New Orleans, LA — including Diagnostic Accuracy of Child Mania Rating Scale and quality of life in youth.
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Nov 2025</div>
-      <div class="news-content">
-        Selected speaker at <strong>Abigail Wexner Research Institute Annual Research Retreat</strong>: <i>Building ChatGPT-Based Abstract Scoring: Pilot and Application</i>.
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Oct 2025</div>
-      <div class="news-content">
-        Two poster presentations at <strong>AACAP 2025 Annual Convention</strong>, Chicago, IL — on machine learning for ODD prediction and psychosis assessment coverage.
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Jun 2025</div>
-      <div class="news-content">
-        Invited talk at Nationwide Children's Hospital: <i>ChatGPT 101: From Theory to Practice</i>.
-      </div>
-    </div>
-
-    <div class="news-item">
-      <div class="news-date">Feb 2025</div>
-      <div class="news-content">
-        Joined Nationwide Children's Hospital as a Clinical Research Coordinator at the Institute for Mental & Behavioral Health Research.
-      </div>
-    </div>
-
-  </div> </div>
-
-
 ## Publications
 
 <div class="about-content">
-  {% assign manuscripts      = site.publications | where: "category", "manuscripts"   | sort: 'date' | reverse %}
-  {% assign book_chaps       = site.publications | where: "category", "book-chapters" | sort: 'date' | reverse %}
-  {% assign preprints_first  = site.publications | where: "category", "preprints" | where: "first_author", true  | sort: 'date' | reverse %}
-  {% assign preprints_co     = site.publications | where: "category", "preprints" | where_exp: "item", "item.first_author != true" | sort: 'date' | reverse %}
-  {% assign preprints        = preprints_first | concat: preprints_co %}
-  {% assign all_pubs = manuscripts | concat: book_chaps | concat: preprints %}
+  {% assign all_pubs = site.publications | sort: 'order' %}
 
   {% for post in all_pubs %}
     
@@ -113,7 +37,7 @@ Feel free to reach me at: Yinuo.Liu@nationwidechildrens.org
       {% assign venue_down = post.venue_nickname | downcase %}
       {% if venue_down contains 'frontiers' %}
         {% assign badge_class = 'badge-colm' %}
-        {% assign badge_text = 'Frontiers' %}
+        {% assign badge_text = 'Peer-Reviewed' %}
       {% elsif venue_down contains 'book' %}
         {% assign badge_class = 'badge-thesis' %}
         {% assign badge_text = 'Book Chapter' %}
@@ -142,8 +66,54 @@ Feel free to reach me at: Yinuo.Liu@nationwidechildrens.org
         <div class="pub-venue">
           {% if post.category == "preprints" %}{{ post.venue | split: " (" | first }}{% else %}{{ post.venue }}{% endif %}
         </div>
+
+        {% if post.note %}
+        <div class="pub-note">{{ post.note }}</div>
+        {% endif %}
       </div>
       <div class="pub-year-bg">{{ post.date | date: "%Y" }}</div>
     </div>
   {% endfor %}
+</div>
+
+## Skills
+
+<div class="about-content">
+  <div class="skills-section">
+
+    <div class="skill-category">
+      <div class="skill-category-title">Programming Languages</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">C</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">SQL</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">Statistics and Questionnaire Software</div>
+      <div class="skill-tags">
+        <span class="skill-tag">R</span>
+        <span class="skill-tag">Mplus</span>
+        <span class="skill-tag">SAS</span>
+        <span class="skill-tag">SPSS</span>
+        <span class="skill-tag">Qualtrics</span>
+        <span class="skill-tag">REDCap</span>
+      </div>
+    </div>
+
+    <div class="skill-category">
+      <div class="skill-category-title">Modeling and Analysis</div>
+      <div class="skill-tags">
+        <span class="skill-tag">Machine Learning</span>
+        <span class="skill-tag">Generalized Additive Models</span>
+        <span class="skill-tag">Latent Class Analysis</span>
+        <span class="skill-tag">Item Response Theory</span>
+      </div>
+    </div>
+
+  </div>
 </div>
