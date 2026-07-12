@@ -36,7 +36,7 @@ Feel free to reach me at: Yinuo.Liu@nationwidechildrens.org
     {% else %}
       {% assign venue_down = post.venue_nickname | downcase %}
       {% if post.venue contains 'In Press' %}
-        {% assign badge_class = 'badge-default' %}
+        {% assign badge_class = 'badge-colm' %}
         {% assign badge_text = 'In-Press' %}
       {% elsif venue_down contains 'frontiers' %}
         {% assign badge_class = 'badge-colm' %}
