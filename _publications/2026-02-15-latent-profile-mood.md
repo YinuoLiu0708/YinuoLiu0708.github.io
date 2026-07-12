@@ -1,12 +1,12 @@
 ---
 title: "Latent Profile Analysis of Parent-Reported Mood Symptoms in Youth: A Person-Centered Approach to Classification"
 collection: publications
-order: 4
-category: preprints
+order: 2
+category: manuscripts
 permalink: /publication/2026-02-15-latent-profile-mood
 excerpt: ''
 date: 2026-02-15
-venue: 'JAACAP OPEN (Revised & Resubmitted)'
+venue: 'JAACAP OPEN (In Press)'
 venue_nickname: 'JAACAP'
 authors: 'Youngstrom E.A., <u>Liu Y.</u>, Thompson A.J., Stephenson K., Youngstrom J.K., Findling R.L.'
 paperurl: ""
@@ -16,7 +16,7 @@ paperurl: ""
 
 Youngstrom E.A., <u>Liu Y.</u>, Thompson A.J., Stephenson K., Youngstrom J.K., & Findling R.L.
 
-**Status**: Revised & Resubmitted at *JAACAP OPEN*
+**Status**: Accepted, in press at *JAACAP OPEN*
 
 **Abstract**
 
