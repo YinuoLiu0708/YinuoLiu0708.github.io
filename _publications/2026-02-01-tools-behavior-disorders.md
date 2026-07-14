@@ -1,14 +1,14 @@
 ---
 title: "Tools for helping identify behavior disorders: Comparing Bayesian nomogram and machine learning models"
 collection: publications
-order: 2
+order: 3
 category: preprints
 first_author: true
 permalink: /publication/2026-02-01-tools-behavior-disorders
 excerpt: ''
 date: 2026-02-01
 venue: 'JAACAP OPEN (Revised & Resubmitted)'
-venue_nickname: 'JAACAP'
+venue_nickname: 'JAACAP OPEN'
 authors: '<u>Liu Y.</u>, Youngstrom E.A., Bondary C., Shi Z., Youngstrom J.K., Stepanova E., Findling R.L.'
 paperurl: ""
 ---
