@@ -41,7 +41,7 @@ Feel free to reach me at: Yinuo.Liu@nationwidechildrens.org
       {% assign badge_text = 'Book Chapter' %}
     {% else %}
       {% assign badge_class = 'badge-default' %}
-      {% assign badge_text = 'Paper' %}
+      {% assign badge_text = 'Peer-Reviewed' %}
     {% endif %}
 
     <div class="pub-item">
