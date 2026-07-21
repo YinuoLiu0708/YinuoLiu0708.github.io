@@ -6,7 +6,7 @@ category: manuscripts
 permalink: /publication/2026-02-15-latent-profile-mood
 excerpt: ''
 date: 2026-07-14
-venue: 'Journal of the American Academy of Child and Adolescent Psychiatry Open'
+venue: 'JAACAP Open'
 venue_nickname: 'JAACAP OPEN'
 authors: 'Youngstrom E.A., <u>Liu Y.</u>, Thompson A.J., Stephenson K., Youngstrom J.K., Findling R.L.'
 paperurl: "https://doi.org/10.1016/j.jaacop.2026.07.002"
