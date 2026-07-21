@@ -33,15 +33,12 @@ Feel free to reach me at: Yinuo.Liu@nationwidechildrens.org
     {% if post.category == "preprints" %}
       {% assign badge_class = 'badge-under-review' %}
       {% assign badge_text = 'Under Review' %}
-    {% elsif post.category == "Journal Article" %}
+    {% elsif post.category == "journal-articles" %}
       {% assign badge_class = 'badge-colm' %}
       {% assign badge_text = 'Peer-Reviewed' %}
     {% elsif post.category == "book-chapters" %}
       {% assign badge_class = 'badge-thesis' %}
       {% assign badge_text = 'Book Chapter' %}
-    {% else %}
-      {% assign badge_class = 'badge-default' %}
-      {% assign badge_text = 'Peer-Reviewed' %}
     {% endif %}
 
     <div class="pub-item">

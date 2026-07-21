@@ -20,14 +20,14 @@ layout: default
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
     
-    {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "order" %}
+    {% assign journal_articles = site.publications | where: "category", "journal-articles" | sort: "order" %}
     {% assign preprints = site.publications | where: "category", "preprints" | sort: "order" %}
     {% assign book_chapters = site.publications | where: "category", "book-chapters" | sort: "order" %}
 
-    {% if manuscripts.size > 0 %}
-      <div class="pub-section pub-section--manuscripts">
-        <h2 class="archive__subtitle">Publications</h2>
-        {% for post in manuscripts %}
+    {% if journal_articles.size > 0 %}
+      <div class="pub-section pub-section--journal-articles">
+        <h2 class="archive__subtitle">Journal Articles</h2>
+        {% for post in journal_articles %}
           <div class="publication">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <p><strong>Venue:</strong> {{ post.venue }}</p>
