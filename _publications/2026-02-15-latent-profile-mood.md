@@ -1,5 +1,5 @@
 ---
-title: "Latent Profile Analysis of Parent-Reported Mood Symptoms in Youth: A Person-Centered Approach to Classification"
+title: "Latent profile analysis of parent-reported mood symptoms in youth: A person-centered approach to classification"
 collection: publications
 order: 2
 category: manuscripts

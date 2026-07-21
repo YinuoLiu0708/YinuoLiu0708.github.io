@@ -1,5 +1,5 @@
 ---
-title: "Measurement-Based Care Benchmarks and Bipolar Classification in ABCD Youth"
+title: "Measurement-based care benchmarks and bipolar classification in ABCD youth"
 collection: publications
 order: 7
 category: preprints

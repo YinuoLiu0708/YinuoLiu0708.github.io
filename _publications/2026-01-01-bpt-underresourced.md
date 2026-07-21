@@ -1,5 +1,5 @@
 ---
-title: "Delivering BPT with Under-resourced Families"
+title: "Delivering BPT with under-resourced families"
 collection: publications
 order: 8
 category: book-chapters
