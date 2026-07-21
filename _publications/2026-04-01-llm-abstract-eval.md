@@ -2,7 +2,7 @@
 title: "Evaluating large language models for abstract evaluation tasks: An empirical study"
 collection: publications
 order: 1
-category: Journal Article
+category: manuscripts
 permalink: /publication/2026-04-01-llm-abstract-eval
 excerpt: ''
 date: 2026-05-03

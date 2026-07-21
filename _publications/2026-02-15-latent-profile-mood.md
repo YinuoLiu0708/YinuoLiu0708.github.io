@@ -2,7 +2,7 @@
 title: "Latent Profile Analysis of Parent-Reported Mood Symptoms in Youth: A Person-Centered Approach to Classification"
 collection: publications
 order: 2
-category: Journal Article
+category: manuscripts
 permalink: /publication/2026-02-15-latent-profile-mood
 excerpt: ''
 date: 2026-07-14
