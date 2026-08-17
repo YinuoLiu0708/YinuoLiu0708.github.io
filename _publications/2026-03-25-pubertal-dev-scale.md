@@ -7,7 +7,7 @@ first_author: true
 permalink: /publication/2026-03-25-pubertal-dev-scale
 excerpt: ''
 date: 2026-03-25
-venue: 'Preprint (Under Review)'
+venue: 'Preprint'
 venue_nickname: 'Preprint'
 authors: '<u>Liu Y.</u>, Bonny A.E., Youngstrom E.A.'
 paperurl: "https://doi.org/10.64898/2026.03.25.26349307v2"
