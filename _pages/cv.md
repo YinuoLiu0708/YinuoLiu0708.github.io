@@ -6,7 +6,7 @@ author_profile: false
 title: ""
 redirect_from:
   - /resume-json
-cv_file: /files/Yinuo_Liu_CV__8_17_26_.pdf
+cv_file: /files/Yinuo_Liu_CV.pdf
 ---
 
 {% include base_path %}

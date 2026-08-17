@@ -81,6 +81,7 @@ Then open `http://localhost:4000`.
 | Navigation menu | `_data/navigation.yml` |
 | Profile photo | `images/` (update avatar path in `_config.yml`) |
 | PDF files (papers, slides, CV) | `files/` |
+| CV PDF | Overwrite `files/Yinuo_Liu_CV.pdf` in place — don't rename it. `_pages/cv.md` always points to this exact filename. |
 
 To bulk-generate publication markdown from a BibTeX file, use the notebooks in `markdown_generator/`.
 
