@@ -5,7 +5,7 @@ order: 3
 category: journal-articles
 permalink: /publication/2026-03-26-data-diversity-bipolar
 excerpt: ''
-date: 2026-12
+date: 2026-12-01
 venue: 'Journal of Affective Disorders'
 venue_nickname: 'JAD'
 authors: 'Shi Z., Youngstrom E.A., <u>Liu Y.</u>, Youngstrom J.K., Findling R.L.'
