@@ -1,7 +1,7 @@
 ---
 title: "Data diversity vs model complexity in the prediction of pediatric bipolar disorder: Evidence from academic and community clinical samples"
 collection: publications
-order: 4
+order: 3
 category: journal-articles
 permalink: /publication/2026-03-26-data-diversity-bipolar
 excerpt: ''
