@@ -1,7 +1,7 @@
 ---
 title: "Delivering BPT with under-resourced families"
 collection: publications
-order: 8
+order: 999
 category: book-chapters
 permalink: /publication/2026-01-01-bpt-underresourced
 excerpt: ''

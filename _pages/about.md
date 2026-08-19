@@ -26,7 +26,11 @@ Feel free to reach me at: Yinuo.Liu@nationwidechildrens.org
 ## Publications
 
 <div class="about-content">
-  {% assign all_pubs = site.publications | sort: 'order' %}
+  {% assign sorted_pubs = site.publications | sort: 'order' %}
+  {% comment %}Book chapters always render after everything else, regardless of order.{% endcomment %}
+  {% assign chapters = sorted_pubs | where: 'category', 'book-chapters' %}
+  {% assign articles = sorted_pubs | where_exp: 'p', 'p.category != "book-chapters"' %}
+  {% assign all_pubs = articles | concat: chapters %}
 
   {% for post in all_pubs %}
     
