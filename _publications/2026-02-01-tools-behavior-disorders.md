@@ -10,7 +10,7 @@ date: 2026-02-01
 venue: 'JAACAP OPEN (Revised & Resubmitted)'
 venue_nickname: 'JAACAP OPEN'
 authors: '<u>Liu Y.</u>, Youngstrom E.A., Bondary C., Shi Z., Youngstrom J.K., Stepanova E., Findling R.L.'
-paperurl: ""
+paperurl: "https://osf.io/preprints/psyarxiv/4sfjz_v1"
 ---
 
 **Authors**

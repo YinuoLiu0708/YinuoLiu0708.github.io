@@ -10,7 +10,7 @@ date: 2026-03-25
 venue: 'Journal of Clinical Child & Adolescent Psychology (Under Review)'
 venue_nickname: 'JCCAP'
 authors: '<u>Liu Y.</u>, Bonny A.E., Youngstrom E.A.'
-paperurl: "https://doi.org/10.64898/2026.03.25.26349307v2"
+paperurl: "https://doi.org/10.64898/2026.03.25.26349307"
 ---
 
 **Authors**
