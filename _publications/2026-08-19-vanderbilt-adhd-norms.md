@@ -1,7 +1,7 @@
 ---
 title: "Normative Data for the Vanderbilt Scale for ADHD Symptoms and Performance by Sex and Age"
 collection: publications
-order: 8
+order: 9
 category: preprints
 permalink: /publication/2026-08-19-vanderbilt-adhd-norms
 excerpt: ''

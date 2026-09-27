@@ -7,7 +7,7 @@ first_author: true
 permalink: /publication/2026-04-16-pnqls-norms
 excerpt: ''
 date: 2026-04-16
-venue: 'Journal of Psychopathology and Behavioral Assessment (Under Review)'
+venue: 'Journal of Psychopathology and Behavioral Assessment (Revised & Resubmitted)'
 venue_nickname: 'JPBA'
 authors: '<u>Liu Y.</u>, Youngstrom E.A., Elizabeth N.A., Fristad M.A.'
 paperurl: "https://doi.org/10.64898/2026.04.16.26350886"
